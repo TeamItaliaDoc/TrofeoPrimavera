@@ -1,0 +1,185 @@
+﻿html,body
+{
+    font-family: "arial";
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+.frame-principale
+{
+    background-color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    width:1005px;
+    margin-left: -500px;
+    left: 50%;
+}
+.intestazione-img
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+}
+.intestazione-titolo
+{
+    font-size: 1.6rem;
+    position: relative;
+    line-height: 1;
+    margin-left: 160px;
+}
+.intestazione-piede 
+{
+    font-size: 1.6rem;
+    line-height: 1;
+    margin-left: 160px;
+    margin-top: 35px;
+}
+.intestazione-gironi
+{
+    position: relative;
+    font-size: 18px;
+    line-height: 1;
+    margin-left: 10px;
+}
+.menu
+{
+    font-size: 1.0rem;
+    margin-left:20px;
+    text-decoration: none;
+    color: black;
+}
+.menuOk
+{
+    font-size: 1.0rem;
+    margin-left:10px;
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+}/* TABELLA */
+.tabella
+{
+    margin-left: 10px;
+    background-color: transparent;
+    font-size: 18px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 1.42857143;
+    color: #312e2b;
+    width:950px;
+    text-align:left;
+}
+.intestazione
+{
+    background-color: #f1f1f1;
+    border-bottom: none;
+    text-align: left;
+    font-weight: 400;
+    padding: 8px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    color: #666463;
+    font-size: 18px;
+    text-align: left;
+}
+.riga
+{
+    border-bottom: 1px solid #ececec;
+}
+
+.albo-col1 {
+    width:30px;
+    text-align:center;
+}   
+.albo-col2 {
+    font-size: 18px;
+    width:290px;
+    text-align:left;
+}   
+.albo-col3 {
+    font-size: 15px;
+    width:110px;
+    text-align:left;
+}   
+.albo-col4 {
+    font-size: 18px;
+    width:150px;
+    text-align:left;
+}   
+.albo-col5 {
+    width:40px;
+    text-align:center;
+}   
+.albo-col6 {
+    width:40px;
+    text-align:center;
+}   
+   
+.classifica-avatar {
+    width:35px;
+    height:35px;
+}   
+.username
+{
+    text-decoration: none;  
+    font-weight: 600;
+    color: #005e94;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-color: transparent;
+}
+/* TABELLA Hall of fame */
+.hall-col1 {
+    width:50px;
+}   
+.hall-col2 {
+    width:200px;
+}   
+.hall-col3 {
+    width:50px;
+}   
+.hall-col-Giocatori {
+    width:100px;
+}   
+
+.hall-int-Giocatori {
+    width:100px;
+    text-align:center;
+}   
+
+/* TABELLA Medagliere */
+.med-col1 {
+    width:50px;
+}   
+.med-col2 {
+    width:200px;
+    text-align:center;
+}   
+.med-Giocatori {
+    width:100px;
+}   
+
+/* TABELLA Premi */
+.premi-col1 {
+    width:50px;
+}   
+.premi-col2 {
+    width:200px;
+    text-align:left;
+}   
+.premi-Giocatori {
+    width:90px;
+}   
+
+/*  Powered */
+.powered{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-top: 400px;
+    margin-left: 10px;
+   
+}
+
+

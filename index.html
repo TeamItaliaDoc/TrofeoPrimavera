@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8"> 
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<script type="text/javascript" src="js/jquery-2.0.3.js"> </script>
+
+
+<!--
+<script>
+    document.write('<script type="text/javascript"  src="js/Risultati.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+    document.write('<script type="text/javascript"  src="js/TrofeoPrimavera.js?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+    document.write('<link rel="stylesheet" href="css/TID.css?dev=' + Math.floor(Math.random() * 100) + '"\><\/script>');
+</script>
+-->
+<script>
+    document.write('<script type="text/javascript"  src="js/Risultati.js"\><\/script>');
+    document.write('<script type="text/javascript"  src="js/TrofeoPrimavera.js"\><\/script>');
+    document.write('<link rel="stylesheet" href="css/TID.css"\><\/script>');
+</script>
+
+    
+</head>
+
+<!-- rilancio la pagina con un parametro per farla caricare se cambiata -->
+<script>
+    var query = window.location.search.substring(1);
+    if (!query)
+      window.location = 'index.html?dev=' + Math.floor(Math.random() * 100);
+    if (query == 'admin')
+    {
+        CAMPIONATO.isAdmin = true;
+    }   
+</script>
+    
+<body style="font-family: Arial">
+    
+<!--                            INTESTAZIONE                                        -->   
+<main align=”center” class="frame-principale"> 
+<div class="intestazione-img">
+    <a href="https://www.chess.com/club/team-italia-doc"  target=”_blank”> <img height="125" width="125" src="img/tdi.jpeg"></a>
+</div>
+<div>
+    <h1 class="intestazione-titolo">Team Italia DOC</h1>
+    <br>
+    <h1 class="intestazione-piede">Trofeo di Primavera</h1>
+    <HR>
+</div>
+
+<!--                            Menu                                        -->   
+<spam class="menu" >
+    <select  onchange="window.location=this.options[this.selectedIndex].value">
+        <option value="">Terminati...</option>
+        <option value="https://teamitaliadoc.github.io/CampionatoSocialeCategoria2020">Campionato categoria 2019</option>   
+        <option value="https://teamitaliadoc.github.io/battagliaFinale">Battaglia finale 2019</option>   
+        <option value="https://teamitaliadoc.github.io/Calvario2019">Calvario 2019</option>   
+        <option value="https://teamitaliadoc.github.io/campionatoSquadre2019/index.html">Campionato a squadre 2019</option>    
+        <option value="https://teamitaliadoc.github.io/Carosello2019/index.html">Carosello 2019</option>   
+        <option value="https://teamitaliadoc.github.io/campionatoSociale2019I/index.html">Campionato sociale 2019</option>    
+        <option value="https://teamitaliadoc.github.io/campionatoSociale2018/index.html">Campionato sociale 2018</option>    
+      </select>
+    </spam>
+    <spam class="menu" >
+    </spam>
+    <!--<spam class="menu" >
+        <select  onchange="window.location=this.options[this.selectedIndex].value">
+            <option value="">In corso...</option>
+        </select>
+    </spam>
+    -->
+    <spam class="menu" >
+        <a  class="menu" href="https://teamitaliadoc.github.io/campionatoSquadre2021">Campionato a squadre</a>
+        <a  class="menu" href="https://teamitaliadoc.github.io/hallOfFame/index.html?d">Hall of fame </a>
+        <a  class="menuOk" href="https://teamitaliadoc.github.io/TrofeoPrimavera/index.html?d">Trofeo di Primavera </a>
+     </spam>
+     <spam class="menu" >
+        <select  onchange="window.location=this.options[this.selectedIndex].value">
+            <option value="">Video...</option>
+            <option value="https://youtu.be/xCvnI2K0VN8">Inno</option>    
+            <option value="https://www.youtube.com/watch?v=9rjMwIiODsw">Compleanno 2019</option>    
+          </select>
+        </spam>
+        <HR> 
+    
+
+<!--        https://api.chess.com/pub/player/  -->
+
+<!--                            SEPARATORE                                      -->   
+<table align="left" width="950px" height="100px" Style="display:none">
+    <tr> </tr>
+
+    <tr> </tr>
+<tr> <td><h1>Premi speciali</h1></td> </tr>
+</table>
+
+<!--                            MEDAGLIERE                                      -->   
+<div>
+    <table  id="medagliere" class="tabella">
+        <tr class="intestazione">
+            <td class="med-col1"></td> 
+            <td class="med-Giocatori">Giocatore</td> 
+            <td class="med-col2">Punti</td>
+            <td class="med-col2"><img style="height: 64px;" src="img/primo.png"></td>
+            <td class="med-col2"><img style="height: 64px;"src="img/secondo.png"></td>
+            <td class="med-col2"><img style="height: 64px;"src="img/terzo.png"></td>
+        </tr>
+    </table>
+</div>
+
+
+
+<!--                            SEPARATORE                                      -->   
+<table align="left" width="950px" height="100px">
+    <tr> </tr>
+
+    <tr> </tr>
+<tr> <td><h1>Tornei</h1></td> </tr>
+</table>
+<!--                            Tornei                                      -->   
+<div>
+<table  id="hall" class="tabella">
+    <tr class="intestazione">
+        <td class="hall-col1">Data</td> 
+        <td class="hall-int-Giocatori"><img style="height: 64px;" src="img/primo.png"></td>
+        <td class="hall-int-Giocatori"><img style="height: 64px;"src="img/secondo.png"></td>
+        <td class="hall-int-Giocatori"><img style="height: 64px;"src="img/terzo.png"></td>
+    </tr>
+</table>
+</div>
+
+<!--                            IMMAGINE  -  LOGO   -->
+    <table  width="950px" height="50px" class="Powered">
+    <tr>
+        <td></td> 
+    </tr>
+</table>
+
+<table  width="950px"   class="Powered">
+
+    <tr>
+        <td align="left" width="950px">Realizzato da Sandro2116 & TheMoonlightKnight</td> 
+        </tr>
+    </table> 
+
+
+
+    <script type="text/javascript"> 
+      elabora();
+    </script>
+</main>
+
+</html>
+
