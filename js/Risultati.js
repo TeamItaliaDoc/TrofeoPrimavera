@@ -25,8 +25,7 @@ tornei[142]={"data":"01/03/2022", "primi":["maehard"], "secondi":["leo2718"], "t
 tornei[143]={"data":"02/03/2022", "primi":["dida70"], "secondi":["themoonlightknight"], "terzi":["warnefrit"]};
 
 tornei[152]={"data":"08/03/2022", "primi":["stefanomondi"], "secondi":["kmoreteam"], "terzi":["cionfolinet"]};
-tornei[153]={"data":"09/03/2022", "primi":[], "secondi":[], "terzi":[]};
-tornei[154]={"data":"10/03/2022", "primi":[], "secondi":[], "terzi":[]};
+tornei[154]={"data":"10/03/2022", "primi":["mabel2008"], "secondi":["maehard"], "terzi":["andorer7"]};
 tornei[155]={"data":"11/03/2022", "primi":[], "secondi":[], "terzi":[]};
 
 tornei[161]={"data":"14/02/2022", "primi":[], "secondi":[], "terzi":[]};
