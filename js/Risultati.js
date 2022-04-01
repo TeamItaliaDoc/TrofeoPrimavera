@@ -37,5 +37,5 @@ tornei[173]={"data":"23/03/2022", "primi":["maehard"], "secondi":["cherokee751"]
 tornei[175]={"data":"25/03/2022", "primi":["dida70"], "secondi":["stefanomondi"], "terzi":["cherokee751"]};
 
 tornei[183]={"data":"30/03/2022", "primi":["maehard"], "secondi":["dida70"], "terzi":["cionfolinet"]};
-tornei[184]={"data":"31/03/2022", "primi":[], "secondi":[], "terzi":[]};
+tornei[184]={"data":"31/03/2022", "primi":["protoscacchista"], "secondi":["maehard"], "terzi":["stefanomondi"]};
 }
